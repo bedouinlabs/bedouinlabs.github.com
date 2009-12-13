@@ -1,0 +1,20 @@
+body {background: #333; font: 17px Helvetica,Sans-Serif; margin: 0; min-width: 600px; color: #222; padding: 50px 10px 10px 10px;}
+
+#nametag { background: white; width: 500px; height: 300px; margin: 0 auto; border: 3px solid black; 
+  -moz-border-radius: 20px; -webkit-border-radius: 20px;}
+h1 { height: 80px; background: red; color: white; text-align: center; 
+  padding: 0; margin: 0; line-height:80px;
+  -moz-border-radius-topleft: 16px;
+  -moz-border-radius-topright: 16px; 
+  -webkit-border-top-left-radius: 16px;
+  -webkit-border-top-right-radius: 16px;}
+h2 { color: black; font-size: 3em; text-align: center; 
+  padding: 0; margin: 0; line-height:140px; }  
+h3 { height: 80px; background: red; color: white; text-align: center; 
+  padding: 0; margin: 0; line-height:80px;
+  -moz-border-radius-bottomleft: 16px;
+  -moz-border-radius-bottomright: 16px; 
+  -webkit-border-bottom-left-radius: 16px;
+  -webkit-border-bottom-right-radius: 16px;}  
+  
+a { color: white; text-decoration: none; }
