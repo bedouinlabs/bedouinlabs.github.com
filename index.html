@@ -8,7 +8,12 @@
       </script>
       <script type="text/javascript">
          twttr.anywhere(function(twitter) {
-                  twitter.hovercards();
+            twitter("#header a.twitter-anywhere-user").hovercards();
+            twitter("#footer a").hovercards({
+              username: function(node) {
+                return node.title;
+              }
+            });              
          });
       </script>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
@@ -87,9 +92,9 @@
       </div>      
     </div>
     <div id='footer'>
-      <a class='twitter-anywhere-user' href='http://twitter.com/bdainton'><span style='display:none;'>@bdainton</span><img src='images/bdainton.jpg'></a>
-      <a class='twitter-anywhere-user' href='http://twitter.com/efalcao'><span style='display:none;'>@efalcao</span><img src='images/efalcao.jpg'></a>
-      <a class='twitter-anywhere-user' href='http://twitter.com/rubyminer'><span style='display:none;'>@rubyminer</span><img src='images/rubyminer.jpg'></a>
+      <a href='http://twitter.com/bdainton' title='bdainton'><img src='images/bdainton.jpg'></a>
+      <a href='http://twitter.com/efalcao' title='efalcao'><img src='images/efalcao.jpg'></a>
+      <a href='http://twitter.com/rubyminer' title='rubyminer'><img src='images/rubyminer.jpg'></a>
       <script type="text/javascript" src="http://bl.tweetriver.com/bl.js?limit=8"></script>
     </div>
   </body>
